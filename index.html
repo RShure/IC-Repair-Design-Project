@@ -30,7 +30,7 @@
       <div class="header__tel">
         <a href="tel:+79287683239">+7 (928) 768-32-39</a>
       </div>
-      <div class="header__call_request">
+      <div class="header__call_request_wrapper">
         <button type="button" class="header__call_request_btn">
           REQUEST A CALL
         </button>
@@ -53,7 +53,7 @@
           </div>
         </div>
       </section>
-      <section class="completed_projects">
+      <section class="completed_projects__section">
         <div class="completed_projects__description">
           <div class="completed_projects__description__main_block">
             <h2 class="main_block__header">
@@ -114,6 +114,59 @@
         </div>
         <div class="completed_projects__image_block">
           <img src="images/interior.svg" alt="interior">
+        </div>
+      </section>
+      <section class="online_control__section">
+        <h2 class="online_control__header">
+          ONLINE CONTROL
+        </h2>
+        <div class="online_control__camera_logo">
+          <img src="images/camera_line.svg" alt="camera_line">
+          <img src="images/camera.svg" alt="camera">
+          <img src="images/camera_line.svg" alt="camera_line">
+        </div>
+        <div class="online_control__video">
+          <div class="online_control__video_wrapper">
+            <video class="video__item" src="#"></video>
+          </div>
+          <button class="online_control__play_btn">
+            <img class="play_btn__image" src="images/play_btn.svg" alt="play_btn">
+          </button>
+        </div>
+        <img class="online_control__separator" src="images/separator_line.svg" alt="separator_line">
+        <div class="broadcast_request">
+          <div class="broadcast_request_description">
+            <p class="broadcast_request_description__text">At each facility, a camera is installed that broadcasts the progress of work on the clock.
+            At any time, you can go to our website and monitor the progress of work in your apartment.
+            You can watch the live broadcast from one of our facilities!
+            Leave a request below and you will receive a link to the broadcast.
+            </p>
+          </div>
+          <div class="broadcast_request__submit_section">
+            <div class="broadcast_request__submit_section__data_input">
+              <p class="input_designator">
+                Name
+              </p>
+              <br>
+              <input type="text" placeholder="What is your name:"/>          
+            </div>
+            <div class="broadcast_request__submit_section__data_input">
+              <p class="input_designator">
+                Phone
+              </p>
+              <br>
+              <input type="tel" placeholder="Your phone number:"/>          
+            </div>
+            <button class="submit_btn">
+              SUBMIT
+            </button>
+          </div>
+          <div class="personal_data_processing_agreement">
+            <input type="checkbox">
+            <label>
+              I agree to the processing of personal data
+            </label>
+          </div>
         </div>
       </section>
     </main>
