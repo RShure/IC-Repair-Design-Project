@@ -1,0 +1,290 @@
+.header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 83px;
+    background-color: black;
+    font-family: Nunito Sans, sans-serif;
+    font-style: normal;
+    font-size: 11px;
+}
+.header__logo {
+    color: #E3B873;
+}
+.header__nav {
+}
+.header__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 47px;
+    list-style: none;
+    cursor: pointer;
+}
+.header__item {
+}
+.header__link {
+    color: white;
+    text-decoration: none;
+    border: none;
+    font-size: 11px;
+}
+.header__tel__link {
+    color: #E3B873;
+    border: none;
+    font-size: 11px;
+    cursor: pointer;
+}
+.header__link:hover,
+.header__tel__link:hover {
+    color: #ff9d00;
+}
+.header__call_request_wrapper {  
+}
+.header__call_request_btn {
+    width: 161px;
+    height: 37px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: 1px solid #000;
+    background: #E3B873;
+    box-shadow: 0px 5px 15px 0px rgba(227, 184, 115, 0.20);
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.header__call_request_btn:hover {
+    background: #ff9d00;
+    cursor: pointer;
+}
+.hero {
+    background: url(images/hero_background.svg);
+}
+.hero__header {
+    color: #FFF;
+    font-family: Yeseva One;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 132.825%; /* 53.13px */
+    text-transform: uppercase;
+    margin: 194px auto 19px 134px;
+}
+.city_highlight {
+    color: #E3B873;
+    font-family: Yeseva One;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 132.825%;
+    text-transform: uppercase;
+}
+.hero__text {
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 163.68%; /* 36.01px */
+    margin: 0 0 41px 134px;
+}
+.hero__buttons_container {
+    
+}
+.hero_btn {
+}
+.completed_projects__section {
+}
+.completed_projects__description {
+}
+.completed_projects__description__main_block {
+}
+.main_block__header {
+}
+.main_block__description {
+}
+.completed_projects__secondary_block {
+}
+.secondary_block__header {
+}
+.secondary_block__description {
+}
+.completed_projects__slider {
+}
+.completed_projects__nav {
+}
+.completed_projects__nav__list {
+}
+.completed_projects__nav__item {
+}
+.completed_projects__link {
+}
+.completed_projects__item {
+}
+.completed_projects__image_block {
+}
+.online_control__section {
+}
+.online_control__header {
+}
+.secondary_section_logo {
+}
+.online_control__video {
+}
+.online_control__video_wrapper {
+}
+.video__item {
+}
+.online_control__play_btn {
+}
+.play_btn__image {
+}
+.online_control__separator {
+}
+.broadcast_request {
+}
+.broadcast_request_description {
+}
+.broadcast_request_description__text {
+}
+.broadcast_request__submit_section {
+}
+.broadcast_request__submit_section__data_input {
+}
+.input_designator {
+}
+.submit_btn {
+}
+.personal_data_processing_agreement {
+}
+.types_of_repair__section {
+}
+.types_of_repair__header {
+}
+.secondary_section__logo {
+}
+.types_of_repair__card_block {
+}
+.types_of_repair__card {
+}
+.types_of_repair__card__description {
+}
+.types_of_repair__card__description__text {
+}
+.types_of_repair__card__header {
+}
+.types_of_repair__list {
+}
+.types_of_repair__item {
+}
+.types_of_repair__link {
+}
+.types_of_repair__price_btn {
+}
+.measurer_request {
+}
+.measurer_request__advantages {
+}
+.measurer_request__advantages__background {
+}
+.measurer_request__advantages__img {
+}
+.measurer_request__advantages__list {
+}
+.measurer_request__advantages__item {
+}
+.measurer_request__advantages__point {
+}
+.point__img {
+}
+.point__value {
+}
+.measurer_request__advantages__text {
+}
+.measurer_request__submit_section {
+}
+.measurer_request__submit_section__description {
+}
+.measurer_request__submit_section__data_input {
+}
+.call_the_measurer__btn {
+}
+.discount {
+}
+.discount__img {
+}
+.discount_description {
+}
+.wildest_fantasies {
+}
+.wildest_fantasies__text {
+}
+.wildest_fantasies__list {
+}
+.wildest_fantasies__item {
+}
+.wildest_fantasies__link {
+}
+.wildest_fantasies__photos {
+}
+.Fantasy_1 {
+}
+.Fantasy_2 {
+}
+.Fantasy_3 {
+}
+.Fantasy_4 {
+}
+.our_clients__section {
+}
+.our_clients__header {
+}
+.our_clients__description {
+}
+.our_clients__card_block {
+}
+.our_clients__card {
+}
+.client {
+}
+.client_avatar {
+}
+.avatar_img {
+}
+.client_name {
+}
+.client_feedback {
+}
+.client__repair_data {
+}
+.client__repair_data__small_block {
+}
+.client__repair_data_img {
+}
+.client__repair_data__small_block__text {
+}
+.questions_section {
+}
+.questions_section__header {
+}
+.questions__submit_section {
+}
+.questions__submit_section__data_input {
+}
+.adress__section {
+}
+.adress__section__header {
+}
+.adress__section__links {
+}
+.map {
+}
+.footer {
+}
