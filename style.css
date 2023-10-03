@@ -66,6 +66,7 @@
 }
 .hero {
     background: url(images/hero_background.svg);
+    margin-left: 134px;
 }
 .hero__header {
     color: #FFF;
@@ -75,7 +76,7 @@
     font-weight: 400;
     line-height: 132.825%; /* 53.13px */
     text-transform: uppercase;
-    margin: 194px auto 19px 134px;
+    margin: 194px auto 19px 0;
 }
 .city_highlight {
     color: #E3B873;
@@ -93,28 +94,65 @@
     font-style: normal;
     font-weight: 400;
     line-height: 163.68%; /* 36.01px */
-    margin: 0 0 41px 134px;
+    margin: 0 0 41px 0;
 }
 .hero__buttons_container {
-    
+    display: flex;
+    gap: 20px;
 }
 .hero_btn {
+    width: 207px;
+    height: 51px;
+    background: transparent;
+    border-radius: 2px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 208px;
+}
+.hero_btn:hover {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px 0px rgba(227, 184, 115, 0.30);
+    cursor: pointer;
 }
 .completed_projects__section {
+    display: flex;
+    margin-left: 134px;
+    gap: 50px;
 }
 .completed_projects__description {
+    display: grid;
+    grid-template-columns: 161px auto;
+    grid-template-rows: 66px 128px 22px 42px 22px 112px;
+    grid-template-areas: 
+    "main_block__header"
+    "main_block__description"
+    "secondary_block__header secondary_block__header"
+    "secondary_block__description secondary_block__description"
+    "secondary_block__header secondary_block__header"
+    "secondary_block__description secondary_block__description";
+
 }
 .completed_projects__description__main_block {
 }
 .main_block__header {
+    grid-area: main_block__header;
 }
 .main_block__description {
+    grid-area: main_block__description;
 }
 .completed_projects__secondary_block {
 }
 .secondary_block__header {
+   grid-area: secondary_block__header; 
 }
 .secondary_block__description {
+    grid-area: secondary_block__description;
 }
 .completed_projects__slider {
 }
