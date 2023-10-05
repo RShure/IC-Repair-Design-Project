@@ -66,6 +66,7 @@
 }
 .hero {
     background-color: #7a7a7a;
+    /*display: flex;*/
     margin-left: 134px;
 }
 .hero__header {
@@ -124,8 +125,12 @@
 }
 .completed_projects__section {
     display: flex;
-    margin-left: 134px;
-    gap: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    /*margin-left: 134px;*/
+    /*gap: 50px;*/
     background-color: #7a7a7a;
 }
 .completed_projects__description {
@@ -240,7 +245,7 @@
     flex-wrap: wrap;
     align-items: center;
     background-color: #7a7a7a;
-    margin: 0 0 12px 134px;
+    margin: 0 0 12px 0;
 }
 .online_control__header {
     color: #FFF;
@@ -271,18 +276,62 @@
 .online_control__separator {
 }
 .broadcast_request {
+    display: flex;
+    flex-direction: column;
 }
 .broadcast_request_description {
+    display: flex;
+    flex-direction: row;
+    max-width: 681px;
+    margin: 35px 0 93px 0;
 }
 .broadcast_request_description__text {
+    color: #363636;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 204.6%; /* 36.828px */
 }
 .broadcast_request__submit_section {
+    display: flex;
+    flex-direction: row;
+    gap: 58px;
 }
 .broadcast_request__submit_section__data_input {
 }
 .input_designator {
+    color: rgba(54, 54, 54, 0.50);
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 163.68%; /* 21.278px */
+}
+.input_field {
+    appearance: none;
+    border: none;
+    border-bottom: 1px solid #3636364D;
+    height: 17px;
+    margin-bottom: 8px;
 }
 .submit_btn {
+    width: 200px;
+    height: 51px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: 1px solid #ffffff;
+    background: #E3B873;
+    box-shadow: 0px 5px 15px 0px rgba(227, 184, 115, 0.20);
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
 }
 .personal_data_processing_agreement {
 }
