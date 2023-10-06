@@ -53,7 +53,7 @@
     box-shadow: 0px 5px 15px 0px rgba(227, 184, 115, 0.20);
     color: #FFF;
     text-align: center;
-    font-family: Nunito Sans;
+    font-family: Nunito Sans, sans-serif;
     font-size: 11px;
     font-style: italic;
     font-weight: 400;
@@ -90,7 +90,7 @@
 }
 .hero__text {
     color: #FFF;
-    font-family: Nunito Sans;
+    font-family: Nunito Sans, sans-serif;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -144,7 +144,7 @@
 }
 .main_block__header {
     color: #E3B873;
-    font-family: Yeseva One;
+    font-family: Yeseva One, sans-serif;
     font-size: 27px;
     font-style: normal;
     font-weight: 400;
@@ -155,7 +155,7 @@
 }
 .main_block__description {
     color: #FFF;
-    font-family: Nunito Sans;
+    font-family: Nunito Sans, sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -173,7 +173,7 @@
 }
 .secondary_block__header {
     color: #E3B873;
-    font-family: Yeseva One;
+    font-family: Yeseva One, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -182,7 +182,7 @@
 }
 .secondary_block__description {
     color: #FFF;
-    font-family: Nunito Sans;
+    font-family: Nunito Sans, sans-serif;
     font-size: 13px;
     font-style: normal;
     font-weight: 400;
@@ -206,7 +206,7 @@
 }
 .completed_projects__link {
     color: rgba(255, 255, 255, 0.30);
-    font-family: Yeseva One;
+    font-family: Yeseva One, sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -217,7 +217,7 @@
 }
 .completed_projects__link:hover {
     color: #E3B873;
-    font-family: Yeseva One;
+    font-family: Yeseva One, sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -250,16 +250,18 @@
 .online_control__header {
     color: #FFF;
     text-align: center;
-    font-family: Yeseva One;
+    font-family: Yeseva One, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 138.6%; /* 27.72px */
-    text-transform: uppercase;   
+    text-transform: uppercase;
+    margin: 0 0 13px 0;   
 }
 .secondary_section_logo {
     display: flex;
-    gap: 8px;    
+    gap: 8px;
+    margin: 0 0 31px 0;    
 }
 .online_control__video {
     
@@ -288,7 +290,7 @@
 .broadcast_request_description__text {
     color: #363636;
     text-align: center;
-    font-family: Nunito Sans;
+    font-family: Nunito Sans, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -300,10 +302,12 @@
     gap: 58px;
 }
 .broadcast_request__submit_section__data_input {
+    display: flex;
+    flex-direction: column;
 }
 .input_designator {
     color: rgba(54, 54, 54, 0.50);
-    font-family: Nunito Sans;
+    font-family: Nunito Sans, sans-serif;
     font-size: 13px;
     font-style: normal;
     font-weight: 400;
@@ -315,10 +319,18 @@
     border-bottom: 1px solid #3636364D;
     height: 17px;
     margin-bottom: 8px;
+    background-color: transparent;
+    color: #363636;
+    font-family: Nunito Sans, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 163.68%; /* 22.915px */
+
 }
 .submit_btn {
     width: 200px;
-    height: 51px;
+    height: 43px;
     flex-shrink: 0;
     border-radius: 2px;
     border: 1px solid #ffffff;
@@ -326,28 +338,85 @@
     box-shadow: 0px 5px 15px 0px rgba(227, 184, 115, 0.20);
     color: #FFF;
     text-align: center;
-    font-family: Nunito Sans;
+    font-family: Nunito Sans, sans-serif;
     font-size: 13px;
     font-style: italic;
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
 }
-.personal_data_processing_agreement {
+.submit_btn:hover {
+    background: #ff9d00;
+    box-shadow: 0px 5px 15px 0px rgba(227, 184, 115, 0.30);
+    cursor: pointer;
 }
+.personal_data_processing_agreement {
+    display: flex;
+    justify-content: center;
+    margin: 39px 0 148px 0;
+}
+.checkbox{
+    cursor: pointer;
+}
+.checkbox_label{
+    color: #181818;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 163.68%; /* 22.915px */
+}
+
 .types_of_repair__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .types_of_repair__header {
+    color: #181818;
+    text-align: center;
+    font-family: Yeseva One;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.6%; /* 27.72px */
+    text-transform: uppercase;
+    margin: 0 0 13px 0;
 }
 .secondary_section__logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin: 0 0 31px 0;
 }
 .types_of_repair__card_block {
+    display: grid;
+    grid-template-columns: repeat(3, 392px);
+    gap: 30px;
+    justify-content: center;
 }
 .types_of_repair__card {
+    
 }
 .types_of_repair__card__description {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /*padding-left: 34px;*/    
 }
 .types_of_repair__card__description__text {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 284px;
+    left: 31px;
+    width: 330px;
+    height: 286px;
+    flex-shrink: 0;
+
+
+    
 }
 .types_of_repair__card__header {
 }
