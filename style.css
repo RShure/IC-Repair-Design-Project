@@ -403,7 +403,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    /*padding-left: 34px;*/    
+    /*padding-left: 34px;*/        
 }
 .types_of_repair__card__description__text {
     display: flex;
@@ -414,19 +414,47 @@
     width: 330px;
     height: 286px;
     flex-shrink: 0;
-
-
+    background-color: #ffffff;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.03)
     
 }
 .types_of_repair__card__header {
+    color: #363636;
+    font-family: Yeseva One;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.6%; /* 24.948px */
+    margin: 25px 0 13px 34px;
 }
 .types_of_repair__list {
+    margin: 0 0 23px 46px;
 }
 .types_of_repair__item {
+    list-style-type: disc;
+    color: #959595;
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 204.6%; /* 26.598px */
 }
 .types_of_repair__link {
 }
 .types_of_repair__price_btn {
+    width: 228px;
+    height: 54px;
+    flex-shrink: 0;
+    background: #E3B873;
+    box-shadow: 5px 5px 10px 0px rgba(227, 184, 115, 0.30);
+    border: none;
+    color: #FFF;
+    font-family: Yeseva One;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.6%; /* 24.948px */
+    text-transform: uppercase;;
 }
 .measurer_request {
 }
