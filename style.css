@@ -1,26 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz@0,6..12;1,6..12&family=Yeseva+One&display=swap');
 main {
     background-image: url(images/hero_background.svg);
     color: rgba(0, 0, 0, 0.70);
     background-repeat: no-repeat;
     background-position: top;
 }
-.header {
+.header-footer {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-evenly;
     align-items: center;
-    height: 83px;
-    background-color: black;
+    /*height: 83px;*/
+    background-color:#131313 ;
     font-family: Nunito Sans, sans-serif;
     font-style: normal;
     font-size: 11px;
 }
-.header__logo {
+.header-height-83 {
+    height: 83px;
+}
+.header-footer__logo {
     color: #E3B873;
 }
-.header__nav {
+.header-footer__nav {
 }
-.header__list {
+.header-footer__list {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -29,32 +34,33 @@ main {
     list-style: none;
     cursor: pointer;
 }
-.header__item {
+.header-footer__item {
 }
-.header__link {
+.header-footer__link {
     color: white;
     text-decoration: none;
     border: none;
     font-size: 11px;
 }
-.header__tel__link {
+.header-footer__tel__link {
     color: #E3B873;
     border: none;
     font-size: 11px;
     cursor: pointer;
 }
-.header__link:hover,
-.header__tel__link:hover {
+.header-footer__link:hover,
+.header-footer__tel__link:hover {
     color: #ff9d00;
 }
-.header__call_request_wrapper {  
+.header-footer__call_request_wrapper {  
 }
-.header__call_request_btn {
+.header-footer__call_request_btn {
     width: 161px;
     height: 37px;
     flex-shrink: 0;
     border-radius: 2px;
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
+    border: none;
     background: #E3B873;
     box-shadow: 0px 5px 15px 0px rgba(227, 184, 115, 0.20);
     color: #FFF;
@@ -66,7 +72,7 @@ main {
     line-height: normal;
     text-transform: uppercase;
 }
-.header__call_request_btn:hover {
+.header-footer__call_request_btn:hover {
     background: #ff9d00;
     cursor: pointer;
 }
@@ -309,7 +315,12 @@ main {
     flex-direction: row;
     gap: 58px;
 }
-.broadcast_request__submit_section__data_input {
+.data_input__container {
+    display: flex;    
+    flex-wrap: wrap;
+    gap: 68px;
+}
+.data_input {
     display: flex;
     flex-direction: column;
 }
@@ -342,12 +353,16 @@ main {
 .white_font {
     color: #ffffff;
 }
+.yellow_font {
+    color: #E3B873;
+}
 .submit_btn {
     width: 200px;
     height: 43px;
     flex-shrink: 0;
     border-radius: 2px;
-    border: 1px solid #ffffff;
+    /*border: 1px solid #ffffff;*/
+    border: none;
     background: #E3B873;
     box-shadow: 0px 5px 15px 0px rgba(227, 184, 115, 0.20);
     color: #FFF;
@@ -374,8 +389,8 @@ main {
     margin: 8px 0 39px 0;
 }
 .personal_data_processing_agreement {
-    /*display: flex;
-    justify-content: center;*/
+    display: flex;
+    justify-content: center;
 }
 .checkbox {
     cursor: pointer;
@@ -394,7 +409,7 @@ main {
     flex-direction: column;
     justify-content: center;
 }
-.types_of_repair__header {
+.secondary__header {
     /*color: #181818;*/
     text-align: center;
     font-family: Yeseva One;
@@ -736,21 +751,47 @@ main {
 .questions_section {
     display: flex;
     flex-direction: column;
-
+    align-items: center;
+    
+}
+.questions_section__container {
+    display: flex;
+    flex-direction: column;
+    /*max-width: 883px;*/
+    gap: 48px;
+    padding: 35px 182px 35px 182px;
+    background-color: #131313;
 }
 .questions_section__header {
 }
 .questions__submit_section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 48px;
+    align-items: center;
 }
 .questions__submit_section__data_input {
 }
 .adress__section {
+    background-image: url(images/adress_section_background.svg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 56px 56px;
+    gap: 26px;
 }
 .adress__section__header {
 }
 .adress__section__links {
 }
 .map {
+    display: flex;
+    width: 925px;
+    height: 465px;
 }
 .footer {
+}
+.footer-height-133 {
+    height: 133px;
 }

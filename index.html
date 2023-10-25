@@ -9,30 +9,30 @@
     <title>IC Repair Design</title>
 </head>
 <body>
-    <header class="header">
-      <div class="header__logo">
+    <header class="header-footer header-height-83">
+      <div class="header-footer__logo">
         IC "Repair Design Project"
       </div>
-      <nav class="header__nav">
-        <ul class="header__list">
-          <li class="header__item">
-            <a class="header__link" href="#">HOME</a>
-          <li class="header__item">
-            <a class="header__link" href="#">PROJECTS</a>
-          <li class="header__item">
-            <a class="header__link" href="#">MEASUREMENT</a>
-          <li class="header__item">
-            <a class="header__link" href="#">TEAM</a>
-          <li class="header__item">
-            <a class="header__link" href="#">CONTACTS</a>
+      <nav class="header-footer__nav">
+        <ul class="header-footer__list">
+          <li class="header-footer__item">
+            <a class="header-footer__link" href="#">HOME</a>
+          <li class="header-footer__item">
+            <a class="header-footer__link" href="#">PROJECTS</a>
+          <li class="header-footer__item">
+            <a class="header-footer__link" href="#">MEASUREMENT</a>
+          <li class="header-footer__item">
+            <a class="header-footer__link" href="#">TEAM</a>
+          <li class="header-footer__item">
+            <a class="header-footer__link" href="#">CONTACTS</a>
           </li>
         </ul>
       </nav>
-      <div class="header__tel">
-        <a class="header__tel__link" href="tel:+79287683239">+7 (928) 768-32-39</a>
+      <div class="header-footer__tel">
+        <a class="header-footer__tel__link" href="tel:+79287683239">+7 (928) 768-32-39</a>
       </div>
-      <div class="header__call_request_wrapper">
-        <button type="button" class="header__call_request_btn">
+      <div class="header-footer__call_request_wrapper">
+        <button type="button" class="header-footer__call_request_btn">
           REQUEST A CALL
         </button>
       </div>
@@ -99,7 +99,7 @@
                 REPAIR COST
               </h3>
               <p class="secondary_block__description">
-                UPON REQUEST
+                Upon request
               </p>
             </div>
           </div> 
@@ -125,7 +125,7 @@
         </div>          
       </section>
       <section class="online_control__section">
-        <h2 class="types_of_repair__header white_font">
+        <h2 class="secondary__header white_font">
           ONLINE CONTROL
         </h2>
         <div class="secondary_section_logo">
@@ -150,13 +150,13 @@
             </p>
           </div>
           <div class="broadcast_request__submit_section">
-            <div class="broadcast_request__submit_section__data_input">
+            <div class="data_input">
               <label class="input_designator">
                 Name
               </label>
               <input class="input_field black_font" type="text" placeholder="What is your name:"/>          
             </div>
-            <div class="broadcast_request__submit_section__data_input">
+            <div class="data_input">
               <label class="input_designator">
                 Phone
               </label>
@@ -177,7 +177,7 @@
         </div>
       </section>
       <section class="types_of_repair__section">
-        <h2 class="types_of_repair__header black_font">
+        <h2 class="secondary__header black_font">
          TYPES OF REPAIR
         </h2>
         <div class="secondary_section__logo">
@@ -310,19 +310,19 @@
               departure of the measurer
             </h3>
             <div class="measurer_request__submit_section__data_input_section">
-              <div class="broadcast_request__submit_section__data_input">
+              <div class="data_input">
                 <label class="input_designator">
                   Name
                 </label>
                 <input class="input_field white_font" type="text" placeholder="What is your name:"/>          
               </div>
-              <div class="broadcast_request__submit_section__data_input">
+              <div class="data_input">
                 <label class="input_designator">
                   Phone
                 </label>
                 <input class="input_field white_font" type="tel" placeholder="Your phone number:"/>   
               </div>
-              <div class="broadcast_request__submit_section__data_input">
+              <div class="data_input">
                 <label class="input_designator">
                   Email
                 </label>
@@ -396,7 +396,7 @@
         </div>
       </section>
       <section class="our_clients__section">
-        <h2 class="types_of_repair__header black_font">
+        <h2 class="secondary__header black_font">
           OUR CLIENTS
         </h2>
         <div class="secondary_section__logo">
@@ -511,44 +511,47 @@
         </div>        
       </section>
       <section class="questions_section">
-        <h2 class="types_of_repair__header">
-          HAVE ANY QUESTIONS?
-        </h2>
-        <div class="questions__submit_section">
-          <div class="broadcast_request__submit_section__data_input">
-            <label class="input_designator">
-              Name
-            </label>
-            <br>
-            <input class="input_field white_font" type="text" placeholder="What is your name:"/>          
+        <div class="questions_section__container">
+          <h2 class="secondary__header white_font">
+            HAVE ANY QUESTIONS?
+          </h2>
+          <div class="questions__submit_section">
+            <div class="data_input__container">
+              <div class="data_input">
+                <label class="input_designator">
+                  Name
+                </label>              
+                <input class="input_field white_font" type="text" placeholder="What is your name:"/>          
+              </div>        
+              <div class="data_input">
+                <label class="input_designator">
+                  Phone
+                </label>              
+                <input class="input_field white_font" type="tel" placeholder="Your phone number:"/>          
+              </div>
+            </div>   
+            <div class="data_input__container">             
+              <div class="data_input white_font">
+                <label class="input_designator">
+                  Question
+                </label>              
+                <input class="input_field white_font" type="text" placeholder="I want to know:"/>          
+              </div>
+            </div>  
+            <div class="personal_data_processing_agreement">
+              <input type="checkbox">
+              <label class="checkbox_label white_font">
+                I agree to the processing of personal data
+              </label>
+            </div>
+            <button class="submit_btn">
+              SUBMIT
+            </button>          
           </div>
-          <div class="broadcast_request__submit_section__data_input">
-            <label class="input_designator">
-              Phone
-            </label>
-            <br>
-            <input class="input_field white_font" type="tel" placeholder="Your phone number:"/>          
-          </div>
-          <div class="broadcast_request__submit_section__data_input white_font">
-            <label class="input_designator">
-              Question
-            </label>
-            <br>
-            <input class="input_field white_font" type="text" placeholder="I want to know:"/>          
-          </div>
-          <div class="personal_data_processing_agreement">
-            <input type="checkbox">
-            <label>
-              I agree to the processing of personal data
-            </label>
-          </div>
-          <button class="call_the_measurer__btn">
-            SUBMIT
-          </button>          
-        </div>
+        </div>  
       </section>
       <section class="adress__section">
-        <h2 class="adress__section__header">
+        <h2 class="secondary__header yellow_font">
           Rostov-on-Don, Nansen St., 239 Shopping Center<br>
           Decorum Tel +7 (928) 768 32 29
         </h2>
@@ -557,41 +560,41 @@
           <a href="#"> <img src="images/instagram_icon.svg" alt="instagram"></a>
         </div>
         <div class="map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2708.555126641048!2d39.720604575962156!3d47.24484721288894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e3b9b47a7e7029%3A0x9e8cb546a10601cc!2z0KLQpiAi0JTQtdC60L7RgNGD0Lwi!5e0!3m2!1sru!2sru!4v1696240344691!5m2!1sru!2sru" 
-          width="400" 
-          height="300" 
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2708.555126641106!2d39.72060457673958!3d47.244847212887805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e3b9b47a7e7029%3A0x9e8cb546a10601cc!2z0KLQpiAi0JTQtdC60L7RgNGD0Lwi!5e0!3m2!1sru!2sru!4v1698235650614!5m2!1sru!2sru" 
+          width="925"
+          height="465" 
           style="border:0;" 
           allowfullscreen="" 
           loading="lazy" 
           referrerpolicy="no-referrer-when-downgrade">
-          </iframe>
+          </iframe>          
         </div>
       </section>
     </main>
-    <footer class="footer">
-      <div class="header__logo">
+    <footer class="header-footer footer-height-133">
+      <div class="header-footer__logo">
         IC "Repair Design Project"
       </div>
-      <nav class="header__nav">
-        <ul class="header__list">
-          <li class="header__item">
-            <a class="header__link" href="#">HOME</a>
-          <li class="header__item">
-            <a class="header__link" href="#">PROJECTS</a>
-          <li class="header__item">
-            <a class="header__link" href="#">MEASUREMENT</a>
-          <li class="header__item">
-            <a class="header__link" href="#">TEAM</a>
-          <li class="header__item">
-            <a class="header__link" href="#">CONTACTS</a>
+      <nav class="header-footer__nav">
+        <ul class="header-footer__list">
+          <li class="header-footer__item">
+            <a class="header-footer__link" href="#">HOME</a>
+          <li class="header-footer__item">
+            <a class="header-footer__link" href="#">PROJECTS</a>
+          <li class="header-footer__item">
+            <a class="header-footer__link" href="#">MEASUREMENT</a>
+          <li class="header-footer__item">
+            <a class="header-footer__link" href="#">TEAM</a>
+          <li class="header-footer__item">
+            <a class="header-footer__link" href="#">CONTACTS</a>
           </li>
         </ul>
       </nav>
-      <div class="header__tel">
-        <a href="tel:+79287683239">+7 (928) 768-32-39</a>
+      <div class="header-footer__tel">
+        <a class="header-footer__tel__link" href="tel:+79287683239">+7 (928) 768-32-39</a>
       </div>
-      <div class="header__call_request_wrapper">
-        <button type="button" class="header__call_request_btn">
+      <div class="header-footer__call_request_wrapper">
+        <button type="button" class="header-footer__call_request_btn">
           REQUEST A CALL
         </button>
       </div>
