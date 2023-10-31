@@ -9,7 +9,7 @@
     <title>IC Repair Design</title>
 </head>
 <body>
-    <header class="header-footer header-height-83">
+    <header class="header header-height-83">
       <div class="header-footer__logo">
         IC "Repair Design Project"
       </div>
@@ -39,21 +39,23 @@
     </header>
     <main>
       <section class="hero">
-        <h1 class="hero__header">
-          TURNKEY REPAIR IN THE<br> CITY OF <span class="city_highlight">ROSTOV-ON-DON</span>
-        </h1>
-        <div class="hero__text">
-          Get ready-made turnkey repairs on time<br>
-          with work time saving up to 45 days and 20% from<br>
-          cost of materials due to the organization of work
-        </div>
-        <div class="hero__buttons_container">
-          <button class="hero_btn">
-            CALCULATE THE COST
-          </button>
-          <button class="hero_btn">
-            SUBMIT YOUR APPLICATION
-          </button>
+        <div class="hero-block">
+          <h1 class="hero__header">
+            TURNKEY REPAIR IN THE<br> CITY OF <span class="city_highlight">ROSTOV-ON-DON</span>
+          </h1>
+          <div class="hero__text">
+            Get ready-made turnkey repairs on time 
+            with work time saving up to 45 days and 20% from 
+            cost of materials due to the organization of work
+          </div>
+          <div class="hero__buttons_container">
+            <button class="hero_btn">
+              CALCULATE THE COST
+            </button>
+            <button class="hero_btn">
+              <span class="no_display_w375">SUBMIT YOUR</span> APPLICATION
+            </button>
+          </div>
         </div>
       </section>
       <section class="completed_projects__section">
@@ -64,9 +66,18 @@
               PROJECTS
             </h2>
             <p class="main_block__description">
-              Only a small part of the work performed by our company is presented<br> on the site. For 14 years on in the construction 
+              Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction 
               market we have made happy more than 1000 families
             </p>
+          </div>
+          <div class="completed_projects__w375_image">
+            <img class="w375_image" src="images/w375_image.svg" alt="w375_image.svg">
+            <button class="w375_image_slider left">
+              <img src="images/w375_image_slider_left.svg" alt="w375_image_slider_left">
+            </button >
+            <button class="w375_image_slider right">
+              <img src="images/w375_image_slider_right.svg" alt="w375_image_slider_right">
+            </button>
           </div>
           <div class="completed_projects__secondary_group">
             <div class="completed_projects__secondary_block">
@@ -124,58 +135,94 @@
           </div>
         </div>          
       </section>
-      <section class="online_control__section">
-        <h2 class="secondary__header white_font">
-          ONLINE CONTROL
-        </h2>
-        <div class="secondary_section_logo">
-          <img src="images/line.svg" alt="line">
-          <img src="images/camera.svg" alt="camera">
-          <img src="images/line.svg" alt="line">
+      <section class="online_control__section">     
+        <div class="online_control__background">
         </div>
-        <div class="online_control__video">
-          <div class="online_control__video_wrapper">
-            <video class="video__item" controls poster="images/video_poster.svg">
-              <source src="#">
-            </video>
-          </div>          
-        </div>
-        <img class="online_control__separator" src="images/separator_line.svg" alt="separator_line">
-        <div class="broadcast_request">
-          <div class="broadcast_request_description">
-            <p class="broadcast_request_description__text">At each facility, a camera is installed that broadcasts the progress of work on the clock.
-            At any time, you can go to our website and monitor the progress of work in your apartment.
-            You can watch the live broadcast from one of our facilities!
-            Leave a request below and you will receive a link to the broadcast.
-            </p>
+        <div class="online_control__container">
+          <h2 class="secondary__header white_font">
+            ONLINE CONTROL
+          </h2>
+          <div class="secondary_section__logo">
+            <img src="images/line.svg" alt="line">
+            <img src="images/camera.svg" alt="camera">
+            <img src="images/line.svg" alt="line">
           </div>
-          <div class="broadcast_request__submit_section">
-            <div class="data_input">
-              <label class="input_designator">
-                Name
-              </label>
-              <input class="input_field black_font" type="text" placeholder="What is your name:"/>          
-            </div>
-            <div class="data_input">
-              <label class="input_designator">
-                Phone
-              </label>
-              <input class="input_field black_font" type="tel" placeholder="Your phone number:"/>   
-            </div>
-            <button class="submit_btn">
-              SUBMIT
-            </button>
+          <div class="online_control__video">
+            <div class="online_control__video_wrapper">
+              <video class="video__item" controls poster="images/video_poster.svg">
+                <source src="#">
+              </video>
+            </div>          
           </div>
-          <div class="online_control__personal_data_processing_agreement">  
-            <div class="personal_data_processing_agreement">             
-              <input class="checkbox" type="checkbox">
-              <label class="checkbox_label black_font">
-                I agree to the processing of personal data
-              </label>           
+          <img class="online_control__separator" src="images/separator_line.svg" alt="separator_line">
+          <div class="broadcast_request">
+            <div class="broadcast_request_description">
+              <p class="broadcast_request_description__text">At each facility, a camera is installed that broadcasts the progress of work on the clock.
+              At any time, you can go to our website and monitor the progress of work in your apartment.
+              You can watch the live broadcast from one of our facilities!
+              Leave a request below and you will receive a link to the broadcast.
+              </p>
             </div>
-        </div>  
+            <div class="broadcast_request__submit_section no_display_w375">
+              <div class="data_input">
+                <label class="input_designator dark">
+                  Name
+                </label>
+                <input class="input_field black_font black_border" type="text" placeholder="What is your name:"/>          
+              </div>
+              <div class="data_input">
+                <label class="input_designator dark">
+                  Phone
+                </label>
+                <input  class="input_field black_font black_border" type="tel" placeholder="Your phone number:"/>   
+              </div>                
+              <button class="submit_btn">
+                SUBMIT
+              </button>
+            </div>
+            <div class="broadcast_request__submit_section no_display_w376">
+              <div class="data_input">
+                <label class="input_designator bright">
+                  Name
+                </label>
+                <input id="input_field_white_font_w375_Name" class="input_field" type="text" placeholder="What is your name:"/>          
+              </div>
+              <div class="data_input">
+                <label class="input_designator bright">
+                  Phone
+                </label>
+                <input id="input_field_white_font_w375_Phone" class="input_field" type="tel" placeholder="Your phone number:"/>   
+              </div>
+            </div>
+            <div class="online_control__personal_data_processing_agreement">  
+              <div class="personal_data_processing_agreement no_display_w375">            
+                <label class="checkbox_label">
+                  <input class="checkbox" type="checkbox">  
+                    <span class="fake"></span>
+                    <span class="checkbox_text black_font">  
+                    I agree to the processing of personal data
+                    </span>
+                </label>           
+              </div>
+              <div id="personal_data_processing_agreement_online_control" class="personal_data_processing_agreement no_display_w376">             
+                <label class="checkbox_label">
+                  <input class="checkbox" type="checkbox">  
+                    <span class="fake"></span>
+                    <span class="checkbox_text white_font">  
+                    I agree to the processing of personal data
+                    </span>
+                </label>                  
+              </div>
+            </div>            
+          </div>
+              
         </div>
-      </section>
+      </section>  
+      <div class="submit_btn_online_control_positioner no_display_w376">
+        <button id="submit_btn_online_control" class="submit_btn">
+          SUBMIT
+        </button>
+      </div>         
       <section class="types_of_repair__section">
         <h2 class="secondary__header black_font">
          TYPES OF REPAIR
@@ -188,7 +235,7 @@
         <div class="types_of_repair__card_block">
           <div class="types_of_repair__card">
             <div class="types_of_repair__card__description">
-              <img src="images/types_of_repair_left_img.svg" alt="types_of_repair_left_img">
+              <img class="types_of_repair__card_img" src="images/types_of_repair_left_img.svg" alt="types_of_repair_left_img">
               <div class="types_of_repair__card__description__text">
                 <h3 class="types_of_repair__card__header">
                   Redecorating
@@ -211,7 +258,7 @@
           </div>
           <div class="types_of_repair__card">
             <div class="types_of_repair__card__description">
-              <img src="images/types_of_repair_middle_img.svg" alt="types_of_repair_middle_img">
+              <img class="types_of_repair__card_img" src="images/types_of_repair_middle_img.svg" alt="types_of_repair_middle_img">
               <div class="types_of_repair__card__description__text">
                 <h3 class="types_of_repair__card__header">
                   Overhaul
@@ -234,7 +281,7 @@
           </div>
           <div class="types_of_repair__card">
             <div class="types_of_repair__card__description">
-              <img src="images/types_of_repair_right_img.svg" alt="types_of_repair_right_img">
+              <img class="types_of_repair__card_img" src="images/types_of_repair_right_img.svg" alt="types_of_repair_right_img">
               <div class="types_of_repair__card__description__text">
                 <h3 class="types_of_repair__card__header">
                   Designer repair
@@ -311,30 +358,33 @@
             </h3>
             <div class="measurer_request__submit_section__data_input_section">
               <div class="data_input">
-                <label class="input_designator">
+                <label class="input_designator bright">
                   Name
                 </label>
-                <input class="input_field white_font" type="text" placeholder="What is your name:"/>          
+                <input class="input_field white_font white_border" type="text" placeholder="What is your name:"/>          
               </div>
               <div class="data_input">
-                <label class="input_designator">
+                <label class="input_designator bright">
                   Phone
                 </label>
-                <input class="input_field white_font" type="tel" placeholder="Your phone number:"/>   
+                <input class="input_field white_font white_border" type="tel" placeholder="Your phone number:"/>   
               </div>
               <div class="data_input">
-                <label class="input_designator">
+                <label class="input_designator bright">
                   Email
                 </label>
-                <input class="input_field white_font" type="tel" placeholder="Your email:"/>   
+                <input class="input_field white_font white_border" type="tel" placeholder="Your email:"/>   
               </div>
             </div>
             <div class="measurer__personal_data_processing_agreement">
               <div class="personal_data_processing_agreement">
-                <input type="checkbox">
-                <label class="checkbox_label white_font">
-                  I agree to the processing of personal data
-                </label>
+                <label class="checkbox_label">
+                  <input class="checkbox" type="checkbox">  
+                    <span class="fake"></span>
+                    <span class="text white_font">  
+                    I agree to the processing of personal data
+                    </span>
+                </label>        
               </div>
             </div>  
             <div class="call_the_measurer_btn__direction">
@@ -352,47 +402,64 @@
           </div>
         </div>  
         <div class="wildest_fantasies">
-          <div class="wildest_fantasies__text">
-            <h2 class="main_block__header">
+          <h2 id="wildest_fantasies__header" class="main_block__header no_display_w376">
             WE REALIZE YOUR <br>
             WILDEST FANTASIES
-            </h2>
-            <ul class="wildest_fantasies__list">
-              <li class="wildest_fantasies__item">
-                <a class="wildest_fantasies__link" href="#">American classic</a>
-              <li class="wildest_fantasies__item">
-                <a class="wildest_fantasies__link" href="#">Empire</a>
-              <li class="wildest_fantasies__item">
-                <a class="wildest_fantasies__link" href="#">Classical</a>
-              <li class="wildest_fantasies__item">
-                <a class="wildest_fantasies__link" href="#">Loft</a>
-              <li class="wildest_fantasies__item">
-                <a class="wildest_fantasies__link" href="#">Minimalism</a>
-              <li class="wildest_fantasies__item">
-                <a class="wildest_fantasies__link" href="#">Provence</a>
-              <li class="wildest_fantasies__item">
-                <a class="wildest_fantasies__link" href="#">Romanticism</a>
-              <li class="wildest_fantasies__item">
-                <a class="wildest_fantasies__link" href="#">Scandinavian style</a>
-              <li class="wildest_fantasies__item">
-                <a class="wildest_fantasies__link" href="#">Mediterrian style</a>
-              <li class="wildest_fantasies__item">
-                <a class="wildest_fantasies__link" href="#">High tech</a>
-              <li class="wildest_fantasies__item">
-                <a class="wildest_fantasies__link" href="#">Electicism</a>
-              </li>
-            </ul>
+          </h2>
+          <div class="completed_projects__w375_image">
+            <img class="w375_image" src="images/w375_image_1.svg" alt="w375_image.svg">
+            <button id="wildest_fantasies_slider_left" class="w375_image_slider left">
+              <img src="images/w375_image_slider_left.svg" alt="w375_image_slider_left">
+            </button >
+            <button id="wildest_fantasies_slider_right" class="w375_image_slider right">
+              <img src="images/w375_image_slider_right.svg" alt="w375_image_slider_right">
+            </button>
           </div>
-          <div class="wildest_fantasies__photos__contsiner">
-            <div class="wildest_fantasies__photos column_left">
-              <img class="Fantasy_1" src="images/Fantasy_1.svg" alt="Fantasy_1">
-              <img class="Fantasy_2" src="images/Fantasy_2.svg" alt="Fantasy_2">
-            </div>  
-            <div class="wildest_fantasies__photos column_right">  
-              <img class="Fantasy_3" src="images/Fantasy_3.svg" alt="Fantasy_3">
-              <img class="Fantasy_4" src="images/Fantasy_4.svg" alt="Fantasy_4">
+          <div class="wildest_fantasies__background">
+          </div>
+          <div class="wildest_fantasies__container">
+            <div class="wildest_fantasies__text">
+              <h2 class="main_block__header">
+              WE REALIZE YOUR <br>
+              WILDEST FANTASIES
+              </h2>
+              <ul class="wildest_fantasies__list">
+                <li class="wildest_fantasies__item">
+                  <a class="wildest_fantasies__link" href="#">American classic</a>
+                <li class="wildest_fantasies__item">
+                  <a class="wildest_fantasies__link" href="#">Empire</a>
+                <li class="wildest_fantasies__item">
+                  <a class="wildest_fantasies__link" href="#">Classical</a>
+                <li class="wildest_fantasies__item">
+                  <a class="wildest_fantasies__link" href="#">Loft</a>
+                <li class="wildest_fantasies__item">
+                  <a class="wildest_fantasies__link" href="#">Minimalism</a>
+                <li class="wildest_fantasies__item">
+                  <a class="wildest_fantasies__link" href="#">Provence</a>
+                <li class="wildest_fantasies__item">
+                  <a class="wildest_fantasies__link" href="#">Romanticism</a>
+                <li class="wildest_fantasies__item">
+                  <a class="wildest_fantasies__link" href="#">Scandinavian style</a>
+                <li class="wildest_fantasies__item">
+                  <a class="wildest_fantasies__link" href="#">Mediterrian style</a>
+                <li class="wildest_fantasies__item">
+                  <a class="wildest_fantasies__link" href="#">High tech</a>
+                <li class="wildest_fantasies__item">
+                  <a class="wildest_fantasies__link" href="#">Electicism</a>
+                </li>
+              </ul>
             </div>
-          </div>  
+            <div class="wildest_fantasies__photos__contsiner">
+              <div class="wildest_fantasies__photos column_left">
+                <img class="Fantasy_1" src="images/Fantasy_1.svg" alt="Fantasy_1">
+                <img class="Fantasy_2" src="images/Fantasy_2.svg" alt="Fantasy_2">
+              </div>  
+              <div class="wildest_fantasies__photos column_right">  
+                <img class="Fantasy_3" src="images/Fantasy_3.svg" alt="Fantasy_3">
+                <img class="Fantasy_4" src="images/Fantasy_4.svg" alt="Fantasy_4">
+              </div>
+            </div> 
+          </div> 
         </div>
       </section>
       <section class="our_clients__section">
@@ -510,68 +577,105 @@
           </div>
         </div>        
       </section>
-      <section class="questions_section">
+      <section class="questions_section">           
         <div class="questions_section__container">
           <h2 class="secondary__header white_font">
             HAVE ANY QUESTIONS?
           </h2>
-          <div class="questions__submit_section">
-            <div class="data_input__container">
+          <div class="questions__submit_section no_display_w375">
+            <div class="data_input__container ">
               <div class="data_input">
-                <label class="input_designator">
+                <label class="input_designator bright">
                   Name
                 </label>              
-                <input class="input_field white_font" type="text" placeholder="What is your name:"/>          
+                <input class="input_field white_font white_border" type="text" placeholder="What is your name:"/>          
               </div>        
               <div class="data_input">
-                <label class="input_designator">
+                <label class="input_designator bright">
                   Phone
                 </label>              
-                <input class="input_field white_font" type="tel" placeholder="Your phone number:"/>          
+                <input class="input_field white_font white_border" type="tel" placeholder="Your phone number:"/>          
               </div>
             </div>   
             <div class="data_input__container">             
               <div class="data_input white_font">
-                <label class="input_designator">
+                <label class="input_designator bright">
                   Question
                 </label>              
-                <input class="input_field white_font" type="text" placeholder="I want to know:"/>          
+                <input id="question_data_input" class="input_field white_font white_border" type="text" placeholder="I want to know:"/>          
               </div>
-            </div>  
-            <div class="personal_data_processing_agreement">
-              <input type="checkbox">
-              <label class="checkbox_label white_font">
-                I agree to the processing of personal data
-              </label>
             </div>
-            <button class="submit_btn">
-              SUBMIT
-            </button>          
           </div>
-        </div>  
+          <div class="questions__submit_section no_display_w376">  
+            <div class="data_input__container">
+              <div class="data_input">
+                <label class="input_designator bright">
+                  Name
+                </label>              
+                <input class="input_field white_font white_border long_border" type="text" placeholder="What is your name:"/>          
+              </div>        
+              <div class="data_input">
+                <label class="input_designator bright">
+                  Phone
+                </label>              
+                <input class="input_field white_font white_border long_border" type="tel" placeholder="Your phone number:"/>          
+              </div>
+              <div class="data_input white_font">
+                <label class="input_designator bright">
+                  Question
+                </label>              
+                <input class="input_field white_font white_border long_border" type="text" placeholder="I want to know:"/>          
+              </div>
+            </div>
+          </div>   
+          <div class="personal_data_processing_agreement">
+            <label class="checkbox_label">
+              <input class="checkbox" type="checkbox">  
+                <span class="fake"></span>
+                <span class="checkbox_text white_font">  
+                I agree to the processing of personal data
+                </span>
+            </label>        
+          </div>
+            <button class="submit_btn no_display_w375">
+              SUBMIT
+            </button>
+            <button id="submit_btn_questions" class="submit_btn no_display_w376">
+              SUBMIT
+            </button>           
+          </div>
+        </div>           
       </section>
       <section class="adress__section">
-        <h2 class="secondary__header yellow_font">
+        <h2  class="secondary__header yellow_font no_display_w375">
           Rostov-on-Don, Nansen St., 239 Shopping Center<br>
           Decorum Tel +7 (928) 768 32 29
         </h2>
-        <div class="adress__section__links">
+        <div class="adress__section__links no_display_w375">
           <a href="mailto:#"> <img src="images/e-mail_icon.svg" alt="e-mail"></a>
           <a href="#"> <img src="images/instagram_icon.svg" alt="instagram"></a>
         </div>
-        <div class="map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2708.555126641106!2d39.72060457673958!3d47.244847212887805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e3b9b47a7e7029%3A0x9e8cb546a10601cc!2z0KLQpiAi0JTQtdC60L7RgNGD0Lwi!5e0!3m2!1sru!2sru!4v1698235650614!5m2!1sru!2sru" 
-          width="925"
-          height="465" 
+        <div class="map_container">
+          <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2708.555126641106!2d39.72060457673958!3d47.244847212887805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e3b9b47a7e7029%3A0x9e8cb546a10601cc!2z0KLQpiAi0JTQtdC60L7RgNGD0Lwi!5e0!3m2!1sru!2sru!4v1698235650614!5m2!1sru!2sru" 
+
           style="border:0;" 
           allowfullscreen="" 
           loading="lazy" 
           referrerpolicy="no-referrer-when-downgrade">
           </iframe>          
         </div>
+        <h2 id="adress" class="secondary__header yellow_font no_display_w376">
+          Rostov-on-Don, Nansen St., 239<br>
+          Shopping Center Decorum<br> 
+          Tel +7 (928) 768 32 29
+        </h2>
+        <div class="adress__section__links no_display_w376">
+          <a href="mailto:#"> <img src="images/e-mail_icon.svg" alt="e-mail"></a>
+          <a href="#"> <img src="images/instagram_icon.svg" alt="instagram"></a>
+        </div>
       </section>
     </main>
-    <footer class="header-footer footer-height-133">
+    <footer class="footer footer-height-133">
       <div class="header-footer__logo">
         IC "Repair Design Project"
       </div>
