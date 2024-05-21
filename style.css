@@ -210,23 +210,6 @@
     font-weight: 400;
     line-height: 163.68%; /* 21.278px */
 }
-.completed_projects__slider {
-    display: flex;
-    gap: 18px;
-}
-.slider_dots {
-    display: flex;
-    margin-top: 2px;
-    gap: inherit;
-}
-.slider_dots_item {
-    width: 10px;
-    height: 10px;
-    background: grey;
-    border-radius: 50%;
-    margin: 0 5px;
-    cursor: pointer;
-}
 .completed_projects__nav {
     margin: 107px 0 53px 0;
 }
@@ -239,8 +222,8 @@
     list-style: none;
     cursor: pointer;
 }
-.completed_projects__city {
-    color: rgb(255, 255, 255);
+.completed_projects__link {
+    color: rgba(255, 255, 255, 0.30);
     font-family: Yeseva One, sans-serif;
     font-size: 14px;
     font-style: normal;
@@ -250,7 +233,7 @@
     text-decoration: none;
     border: none;      
 }
-.completed_projects__city:hover {
+.completed_projects__link:hover {
     color: #E3B873;
     font-family: Yeseva One, sans-serif;
     font-size: 14px;
